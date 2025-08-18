@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>아동학대 예방</title>
+  <style>
+    body {
+      font-family: 'Helvetica', sans-serif;
+      background-color: #f0f9f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #56b37f;
+      padding: 1rem;
+      text-align: center;
+      color: white;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .notice p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    .video-box {
+      margin: 1.5rem 0;
+    }
+    iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      max-height: 400px;
+      border: none;
+    }
+    .insta-btn {
+      display: inline-block;
+      background-color: #56b37f;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+      margin-right: 1rem;
+      transition: background-color 0.3s;
+    }
+    .insta-btn:hover {
+      background-color: #3d8f63;
+    }
+    #popup {
+      display: none;
+      position: fixed;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -30%);
+      background-color: white;
+      padding: 1.5rem;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      border-radius: 12px;
+      z-index: 1000;
+      text-align: center;
+      max-width: 90vw;
+      width: 90vw;
+    }
+    #popup img {
+      width: 50%;
+      max-width: 250px;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+    }
+    #popup button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      background-color: #56b37f;
+      color: white;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    #overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.4);
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+<div id="overlay"></div>
+<div id="popup">
+  <a href="https://ibb.co/6JWsJJmb" target="_blank">
+    <img src="https://i.ibb.co/k6Sc66x0/001.jpg" alt="001" />
+  </a>
+  <p>
+    본 캠페인은 <strong>‘아동의 권리보장을 위한 아동학대 예방 및 아동 보호’</strong>를 주제로 진행되고 있습니다.
+  </p>
+  <p>
+    아동학대의 종류 중 특히 잘 드러나지 않는 <strong>‘방임’의 심각성</strong>을 알리기 위해 영상을 제작했으며,
+    시청 후 진행될 설문은 아동학대 예방에 대한 인식과 행동 변화를 살펴보는 데 중요한 자료가 됩니다.
+  </p>
+  <p>
+    <strong>여러분의 소중한 참여</strong>가 아이들의 안전을 지키는 힘이 됩니다. 감사합니다.
+  </p>
+  <button onclick="closePopup()">닫기</button>
+</div>
+
+<header>
+  <h1>아동학대 예방</h1>
+</header>
+
+<div class="container">
+  <section class="notice">
+    <p>저희는 2025년 일경험 프로젝트에 참여 중인 신라대학교 사회복지학과 2~3학년 학생 김도연, 김태이, 박진형, 백경빈입니다. <strong>‘아동의 권리보장을 위한 아동학대 예방 및 아동 보호’</strong>를 주제로, 이번 프로젝트를 통해 많은 사람들이 쉽게 공감하고 참여할 수 있도록 온라인 캠페인을 준비했습니다.</p>
+    <p>아동이 안전하고 존중받으며 성장하는 사회를 만들기 위해서는 모두의 관심과 행동이 필요하다는 믿음으로, 특히 사회적으로 잘 드러나지 않는 <strong>‘방임’ 문제</strong>를 중심에 두고 기획하였습니다.</p>
+    <p><strong>보건복지부 통계</strong>에 따르면 아동학대의 80% 이상이 가정에서 발생하며, 가해자의 다수는 부모입니다. 부모 연령대는 30대가 가장 많고 20대도 적지 않아, 양육 초기인 <strong>20~30대의 인식 변화</strong>가 예방과 조기 발견에 큰 영향을 미칩니다.</p>
+  </section>
+
+  <div class="video-box">
+    <iframe src="https://www.youtube.com/embed/GoQc3Che_VQ" title="캠페인 영상 2" allowfullscreen></iframe>
+  </div>
+
+  <section>
+    <h2>참여 방법</h2>
+    <ul>
+      <li>📺 캠페인 콘텐츠 시청하기</li>
+      <li>📱 인스타그램 계정 방문 및 공유하기</li>
+      <li>📝 설문조사 참여하기</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>링크로 캠페인 보기</h2>
+    <a href="https://www.instagram.com/silla_socialwelfare/" target="_blank" class="insta-btn">🎓 신라대 사회복지학과 인스타그램</a>
+    <a href="https://docs.google.com/forms/d/14h93pJFXx4H-DuKtolGBYHHiHJdqsz456L6ojK5AlaI/viewform" target="_blank" class="insta-btn">📝 설문조사</a>
+  </section>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('popup').style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';
+  });
+
+  function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>
